@@ -1,4 +1,4 @@
 # OOP1
-ZADANIE1 - main4
-ZADANIE2 - main5
-ZADANIE3 - main6
+ZADANIE1 - main1
+ZADANIE2 - main2
+ZADANIE3 - main3
