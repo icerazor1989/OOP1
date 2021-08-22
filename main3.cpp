@@ -5,12 +5,10 @@ using namespace std;
 
 class Stack
 {
-
 	int m_array[10]; 
 	int m_next; 
 
 public:
-
 	void reset()
 	{
 		m_next = 0;
@@ -63,14 +61,5 @@ int main()
 	stack.print();
 
 	return 0;
-}
-    
-    
-    
-    
-    
-    
-    
-
-
+}    
 
