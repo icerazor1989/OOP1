@@ -31,5 +31,7 @@ int main()
     Power degree;
     degree.setPower(num,deg);
     degree.calculatePower(num,deg);
+    
+    return 0;
 }
 
