@@ -5,7 +5,6 @@ using namespace std;
 
 class Power 
 {
-
     double num1;
     double num2;
 public:
@@ -19,12 +18,9 @@ public:
     }
 
     void calculatePower(double num, double deg)
-    {
-        
-        cout <<num1 <<"^" << num2 << "=" << pow(num1, num2);
-        
+    {        
+        cout << num1 <<"^" << num2 << "=" << pow(num1, num2);
     }
-
 
 };
 
