@@ -5,12 +5,10 @@ using namespace std;
 
 class Stack
 {
-
 	int m_array[10]; 
 	int m_next; 
 
 public:
-
 	void reset()
 	{
 		m_next = 0;
@@ -21,7 +19,9 @@ public:
 	bool push(int value)
 	{		
 		if (m_next == 10)
+		{
 		return false;
+		}	
 
 		m_array[m_next++] = value; 
 		return true;
@@ -37,7 +37,9 @@ public:
 	{
 		cout << "( ";
 		for (int i = 0; i < m_next; ++i)
+		{
 		cout << m_array[i] << " ";
+		}
 		cout << ")\n";
 	}
 };
@@ -63,14 +65,5 @@ int main()
 	stack.print();
 
 	return 0;
-}
-    
-    
-    
-    
-    
-    
-    
-
-
+}    
 
